@@ -11,7 +11,8 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.1em;
   line-height: 1.6;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  background: linear-gradient(to right, #e92700, #f3903f, #ffb2a1); }
 
 h1,
 h2,
@@ -43,7 +44,6 @@ a:hover {
   text-decoration: underline; }
 
 header {
-  background: #1D1425;
   padding: 0px 15px;
   text-align: center;
   margin: 50px 0 0;
@@ -53,9 +53,11 @@ header {
   align-items: center; }
 
 main {
-  padding: 0 15px;
-  max-width: 800px;
-  margin: 0 auto; }
+  background: linear-gradient(to top, #e92700, #f3903f, #ffb2a1);
+  margin: 20px; }
+
+img {
+  position: absolute; }
 
 time {
   color: #898989; }
@@ -69,11 +71,8 @@ aside {
   position: fixed;
   top: 0;
   left: 0;
-  background: #fff;
   width: 100%;
-  z-index: 2;
-  border-bottom: 1px solid white;
-  box-shadow: 0px 1px 1px RGBA(4, 25, 54, 0.1); }
+  z-index: 2; }
   aside nav {
     float: left;
     max-width: 800px;
@@ -105,6 +104,13 @@ aside {
 footer {
   text-align: center;
   padding: 40px; }
+
+.white-border {
+  background: url("/assets/sevenseas_bg.svg") top no-repeat;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  width: 100%; }
 
 /**
  * Syntax highlighting styles
