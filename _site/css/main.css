@@ -12,7 +12,9 @@ body {
   font-size: 1.1em;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
-  background: linear-gradient(to right, #e92700, #f3903f, #ffb2a1); }
+  background-size: cover;
+  background: url("/assets/beach.gif") no-repeat center center fixed;
+  background-size: 100%; }
 
 h1,
 h2,
@@ -53,7 +55,6 @@ header {
   align-items: center; }
 
 main {
-  background: linear-gradient(to top, #e92700, #f3903f, #ffb2a1);
   margin: 20px; }
 
 img {
@@ -104,13 +105,6 @@ aside {
 footer {
   text-align: center;
   padding: 40px; }
-
-.white-border {
-  background: url("/assets/sevenseas_bg.svg") top no-repeat;
-  height: 800px;
-  position: absolute;
-  top: 0;
-  width: 100%; }
 
 /**
  * Syntax highlighting styles
