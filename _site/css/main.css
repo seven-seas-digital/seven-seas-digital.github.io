@@ -48,7 +48,6 @@ a:hover {
 header {
   padding: 0px 15px;
   text-align: center;
-  margin: 50px 0 0;
   height: 50vh;
   display: flex;
   justify-content: center;
@@ -110,6 +109,12 @@ footer {
   font-style: italic;
   color: white;
   font-family: 'Playfair Display', serif; }
+
+.logo-container {
+  width: 100%; }
+  .logo-container img {
+    width: 80%;
+    position: relative; }
 
 /**
  * Syntax highlighting styles

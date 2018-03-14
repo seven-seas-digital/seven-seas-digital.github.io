@@ -8,7 +8,6 @@ body {
 	background-size: cover;
 	background: url('/assets/beach.gif') no-repeat center center fixed;
 	background-size: 100%;
-	// background: linear-gradient(to right, #e92700, #f3903f, #ffb2a1);
 }
 
 h1,
@@ -44,7 +43,6 @@ a:hover {
 header {
 	padding: 0px 15px;
 	text-align: center;
-	margin: 50px 0 0;
 	height: 50vh;
 	display: flex;
 	justify-content: center;
@@ -125,8 +123,12 @@ footer {
 		
 }
 
-// .white-border img {
-// 	position: absolute;
-// 	width: 60vw;
-// }
-
+.logo-container {
+	width: 100%;
+	// background: rgba(255, 255, 255, .2);
+	img {
+		width: 80%;
+		// padding: 30px 0;
+		position: relative;
+	}
+}
