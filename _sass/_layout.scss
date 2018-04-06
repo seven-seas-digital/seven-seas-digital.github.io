@@ -127,7 +127,7 @@ footer {
 	width: 100%;
 	// background: rgba(255, 255, 255, .2);
 	img {
-		width: 80%;
+		width: 50%;
 		// padding: 30px 0;
 		position: relative;
 	}
@@ -165,4 +165,10 @@ footer {
 
 .logo-container {
 	margin: 0 auto;
+	position: absolute;
+	top: 41%;
+	left: 27%;
 }
+
+
+

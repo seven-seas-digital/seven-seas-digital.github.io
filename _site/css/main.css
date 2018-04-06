@@ -113,7 +113,7 @@ footer {
 .logo-container {
   width: 100%; }
   .logo-container img {
-    width: 80%;
+    width: 50%;
     position: relative; }
 
 .work-link {
@@ -142,7 +142,10 @@ footer {
   padding: 5px; }
 
 .logo-container {
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: absolute;
+  top: 41%;
+  left: 27%; }
 
 /**
  * Syntax highlighting styles
