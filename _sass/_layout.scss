@@ -6,8 +6,9 @@ body {
 	line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
 	background-size: cover;
-	background: url('/assets/beach.gif') no-repeat center center fixed;
+	// background: url('/assets/beach.gif') no-repeat center center fixed;
 	background-size: 100%;
+	background: blue;
 }
 
 h1,
@@ -52,6 +53,8 @@ main {
 	// background: linear-gradient(to top, #e92700, #f3903f, #ffb2a1);	
 	margin: 20px;
 	// height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 img {
 	position: absolute;
@@ -134,25 +137,21 @@ footer {
 }
 
 .work-link {
-	position: absolute;
 	top: 0;
 	left: 0;
 }
 
 .about-link {
-	position: absolute;
 	top: 0;
 	right: 0;
 }
 
 .shop-link {
-	position: absolute;
 	bottom: 0;
 	left: 0;
 }
 
 .contact-link {
-	position: absolute;
 	bottom:0;
 	right:0;
 }
@@ -160,15 +159,29 @@ footer {
 .nav {
 	color:white;
 	border: 2px solid white;
-	padding: 5px;
+	padding: 5px 5px 5px 20px;
+	margin: 10px;
+	font-size: 1rem;
 }
 
 .logo-container {
-	margin: 0 auto;
-	position: absolute;
-	top: 41%;
-	left: 27%;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
 }
 
+@media (min-width: 600px) {
+	.nav {
+		position: absolute;
+		margin: 20px;
+		font-size: 2rem;
+		padding: 10px;
+	}
 
-
+	.logo-container {
+		position: absolute;
+		top: 45%; 
+	}
+}

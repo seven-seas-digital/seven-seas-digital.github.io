@@ -4,10 +4,12 @@
 
 <body>
 	<main>
-		{% include work-link.html %}
-		{% include about-link.html %}
-		{% include shop-link.html %}
-		{% include contact-link.html %}
+		<nav>
+			{% include work-link.html %}
+			{% include about-link.html %}
+			{% include shop-link.html %}
+			{% include contact-link.html %}
+		</nav>
 		{% include logo.html %}
 		<article>
 			{{ content }}
