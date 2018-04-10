@@ -157,6 +157,21 @@ footer {
   .logo-container {
     position: absolute;
     top: 45%; } }
+.waves-container {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around; }
+
+.path {
+  stroke-dasharray: 100;
+  animation: dash 5s linear infinite; }
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 1000; } }
 /**
  * Syntax highlighting styles
  */
