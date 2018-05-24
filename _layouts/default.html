@@ -5,20 +5,54 @@
 <body>
 	<main>
 		<nav>
-			{% include work-link.html %}
-			{% include about-link.html %}
-			{% include shop-link.html %}
-			{% include contact-link.html %}
+				<h2 class="work-link nav"><a href="#work">WORK</a></h2>
+				<h2 class="about-link nav"><a href="#about">ABOUT</a></h2>
+				<h2 class="contact-link nav"><a href="#contact">CONTACT</a></h2>
+				<h2 class="shop-link nav"><a href="#shop">SHOP</a></h2>
 		</nav>
 		<!-- {% include logo.html %} -->
 		<div class="waves-container">
 			{% include waves.html %}
 		</div>
+		<section class="container">
+		</section>
+		<section class="container">
+		</section>
+		<section class="container">
+		</section>
+
+
+		<section class="container" id="work">
+			<div class="work-blurb">
+				<h1> WE LOVE CONSTRAINT </h1>
+			</div>
+			<iframe src="https://player.vimeo.com/video/259781429" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen
+			 allowfullscreen></iframe>
+			<p><a href="https://vimeo.com/259781429">Change my view reader app</a> from <a href="https://vimeo.com/linazoo">Lina Zoo</a>				on <a href="https://vimeo.com">Vimeo</a>.</p>
+			
+			<iframe src="https://player.vimeo.com/video/259781458" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<p><a href="https://vimeo.com/259781458">Share Space</a> from <a href="https://vimeo.com/linazoo">Lina Zoo</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+		
+			<iframe src="https://player.vimeo.com/video/259781425" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<p><a href="https://vimeo.com/259781425">Wall Art by Lina Zoo</a> from <a href="https://vimeo.com/linazoo">Lina Zoo</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+			<iframe src="https://player.vimeo.com/video/259781402" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<p><a href="https://vimeo.com/259781402">Aliens, Go Home! Game</a> from <a href="https://vimeo.com/linazoo">Lina Zoo</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+		</section>
+
+		<section class="container" id="about">
+
+
+		</section>
+
 		<article>
 			{{ content }}
 		</article>
 		{% include footer.html %}
 	</main>
+	<script>
+		{% include main.js %}
+	</script>
 </body>
 
 </html>
