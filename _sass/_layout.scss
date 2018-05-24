@@ -11,6 +11,9 @@ body {
 	background: blue;
 }
 
+p {
+	color: white;
+}
 h1,
 h2,
 h3 {
@@ -187,7 +190,7 @@ footer {
 }
 
 .waves-container {
-	position: absolute;
+	// position: absolute;
 	top: 40%;
 	left: 0;
 	width: 100%;
@@ -222,6 +225,16 @@ footer {
 	justify-content: center;
 }
 
-#about {
-	
+#info {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#home {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
 }
