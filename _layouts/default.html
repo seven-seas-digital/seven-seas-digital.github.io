@@ -5,30 +5,47 @@
 <body>
 	<main>
 		<nav>
+			<h2 class="about-link nav"><a href="#info">ABOUT</a></h2>
 			<h2 class="work-link nav"><a href="#work">WORK</a></h2>
-			<h2 class="about-link nav"><a href="#info">WHO</a></h2>
-			<h2 class="contact-link nav"><a href="#contact">HMU</a></h2>
-			<h2 class="shop-link nav"><a href="#shop">SHOP</a></h2>
+			<h2 class="contact-link nav"><a href="mailto:lina.lyden@gmail.com">CONTACT</a></h2>
+			<h2 class="shop-link nav"><a target=_blank href="https://linazoo.tumblr.com/">BLOG</a></h2>
 		</nav>
 	
 
 		<section class="container" id="home">
-			<div>{% include sevenseaslogo.html %}</div>
+			<div class="seven-logo">{% include sevenseaslogo.html %}</div>
 
 		</section>
 		<section class="container" id="info">
 			<div>{% include who.html %}</div>
-			<p> Seven Seas Digital House is a design studio run by creative partners Lina Zuluaga & Johnny Lyden.</p>
+			<p> Seven Seas Digital House is a design studio run by creative partners Lina & Johnny</p>
 			<p>Through SSDH we seek to learn, experiment and try new technologies and ideas</p>
-			<p>From wireframing to fast prototyping Seven Seas aims to 'build to fail fast' in a conceptually focused studio where our goal is to deliver and test ideas.</p> 
-			<p>Open for comission work on a case-by-case basis.</p>
+			<p>From wireframing to fast prototyping Seven Seas aims to 'build to fail fast' in a conceptually focused studio where our goal is to deliver and test ideas</p> 
+			<p>Open for comission work on a case-by-case basis</p>
 		</section>
-		<section class="container">
+	
 		</section>
 
 
 		<section class="container" id="work">
 			<div>{% include projects.html %}</div>
+			<div>
+				<p><a class="title" target=_blank href="http://challenge-my-opinion.herokuapp.com/">CHANGE MY VIEW</a></p> 
+				<p class="description-text">This was our first project as a team and one of our favorites to this day
+					We were inspired by the subreddit Change My View - "A place to post an opinion you accept may be flawed" 
+					We decided to build a visual reader where you can search any topic and also find hot, new and top posts</p>
+					<p class="desciption-heading">Technologies used</p>
+					<ul> <li>React frontend hitting Reddit public API</li>
+						<li>Utilized Redux for app state management</li>
+						<li>Responsive mobile first design utilizing Material UI components</li>
+						<li>Logo & Branding creative direction</li>
+						</ul>
+			
+				<p><a class="title" target=_blank href="http://muralnomad.com">MURAL NOMAD</a></p>
+				<p><a class="title" href="#skate">SKATE STUMPERS (WIP)</a></p> 
+				<p><a class="title" href="#skate">CLEAN MY LOO (WIP)</a></p>
+
+			</div>
 
 		
 		</section>

@@ -157,6 +157,9 @@ footer {
   justify-content: space-around;
   align-items: center; }
 
+.sevenlogo {
+  width: 100%; }
+
 @media (min-width: 600px) {
   .nav {
     position: fixed;
@@ -177,6 +180,23 @@ footer {
 .path {
   stroke-dasharray: 100;
   animation: dash 5s linear infinite; }
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; }
+
+.description-text {
+  font-weight: 300; }
+
+.desciption-heading {
+  font-weight: 600; }
+
+li {
+  list-style-type: none; }
+
+.title {
+  font-size: 2em;
+  font-weight: 800; }
 
 @keyframes dash {
   to {
